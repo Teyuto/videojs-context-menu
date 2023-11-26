@@ -2,7 +2,7 @@
     "name": "@teyuto/videojs-context-menu",
     "author": "Teyuto",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Video.js Context Menu Plugin",
     "repository": {
       "type": "git",
