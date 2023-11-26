@@ -1,0 +1,44 @@
+.context-menu {
+    display: none;
+    position: absolute;
+    border-radius: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 10px;
+}
+
+.context-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.context-menu li {
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.context-menu a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.context-menu.light-theme {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.context-menu.light-theme li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.context-menu.dark-theme {
+    background-color: #333;
+    border: 1px solid #666;
+    color: #fff;
+}
+
+.context-menu.dark-theme li:hover {
+    background-color: rgba(255,255,255,0.1);
+}
