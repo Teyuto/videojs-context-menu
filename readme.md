@@ -38,7 +38,7 @@ Initialize Video.js as you normally would and add the Video.js Context Menu:
 var player = videojs('my-video');
 
 // Add Video.js Context Menu Plugin
-player.contextmenu({
+player.contextMenu({
   playerName: 'Custom Player',
   playerVersion: '2.0.0',
   playerUrl: 'https://example.com/player',
